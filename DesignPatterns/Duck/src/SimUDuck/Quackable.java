@@ -1,5 +1,5 @@
 package SimUDuck;
 
 public interface Quackable {
-	void quack();
+	public void quack();
 }

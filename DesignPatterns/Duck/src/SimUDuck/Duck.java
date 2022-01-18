@@ -1,14 +1,21 @@
 package SimUDuck;
 
 public abstract class Duck {
+	FlyBehavior flyBehavior;
+	QuackBehavior quackBehavior;
 
-
-//	void quack() {
-//		System.out.println("²Ð²Ð");
-//	}
-	void swim() {
+	public Duck() {
 		
 	}
 	abstract void display();
-	/* void fly() {}; */
+	void performQuack() {
+		quackBehavior.quack();
+	}
+	void swim() {	
+		System.out.println("¸ðµç ¸ð¸®´Â ¹°¿¡ ¶å´Ï´Ù. °¡Â¥ ¿À¸®µµ ¶ßÁÒ.");
+	}
+	void performFly(){
+		flyBehavior.fly();
+	}
+	
 }

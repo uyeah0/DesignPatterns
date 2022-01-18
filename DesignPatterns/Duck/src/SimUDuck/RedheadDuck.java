@@ -9,10 +9,5 @@ public class RedheadDuck extends Duck{
 		
 	}
 
-//	@Override
-//	void fly() {
-//		// TODO Auto-generated method stub
-//		
-//	}
 
 }
